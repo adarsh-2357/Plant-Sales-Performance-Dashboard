@@ -108,3 +108,32 @@ Value_YTD = [Sales_YTD]
 Average_Order_Value = DIVIDE([Sales_Total], DISTINCTCOUNT(Sales[Account_ID]), 0)
 
 YOY_Sales_Growth = DIVIDE([Sales_YTD] - [Sales_PYTD], [Sales_PYTD], 0)
+
+```
+
+## Visuals Included
+
+- The dashboard includes the following visuals:
+- KPI cards for Sales YTD, Quantity YTD, and Gross Profit %.
+- Bar charts for YTD vs PYTD comparisons.
+- Line charts for month-wise trends.
+- Treemap showing country-wise performance.
+- Scatter chart for customer profitability segmentation (Value YTD vs GP%).
+- Waterfall chart to illustrate monthly variance.
+- Slicers for quarter, product type, country, and year.
+- Additional category-level charts for indoor, outdoor, and landscape product types.
+
+## Insights Summary
+
+- Key observations derived from the dashboard:
+- Distinct seasonal trends were identified in both quantity sold and sales revenue.
+- Gross Profit Percentage maintained consistent performance across the analyzed period.
+- Certain countries and customer accounts contributed disproportionately to total sales, providing clear targets for business optimization.
+- Product types (Indoor, Outdoor, Landscape) displayed different growth patterns, highlighting category-specific demand behavior.
+- Customer profitability scatter analysis revealed high-value but low-margin accounts worth deeper investigation.
+
+##How to Use
+- Download the PBIX file from this repository.
+- Open it using Power BI Desktop (Windows).
+- Interact with slicers and visuals to explore different segments of the data.
+- Review DAX formulas in the "Modeling" tab for learning or customization.
