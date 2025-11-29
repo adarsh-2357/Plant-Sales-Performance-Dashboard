@@ -132,7 +132,7 @@ YOY_Sales_Growth = DIVIDE([Sales_YTD] - [Sales_PYTD], [Sales_PYTD], 0)
 - Product types (Indoor, Outdoor, Landscape) displayed different growth patterns, highlighting category-specific demand behavior.
 - Customer profitability scatter analysis revealed high-value but low-margin accounts worth deeper investigation.
 
-##How to Use
+## How to Use
 - Download the PBIX file from this repository.
 - Open it using Power BI Desktop (Windows).
 - Interact with slicers and visuals to explore different segments of the data.
